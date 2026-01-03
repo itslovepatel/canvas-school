@@ -32,7 +32,7 @@ const Home: React.FC = () => {
                 Begin The <span className="text-brand-pink">Journey</span> With <span className="text-brand-yellow drop-shadow-sm text-stroke-pink">CANWAS</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto md:mx-0">
-                A concept preschool in Dausa where we believe in "Learning by Doing" to nurture young, creative minds.
+                A quality school in Dausa where we believe in "Learning by Doing" to nurture young, creative minds from Playgroup to Class 8.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
                 <Button to="/contact" variant="primary" className="text-lg px-8 py-4">
@@ -122,7 +122,7 @@ const Home: React.FC = () => {
                     <Star className="w-4 h-4 fill-current" />
                     <Star className="w-4 h-4 fill-current" />
                  </div>
-                 <p className="text-xs text-slate-600 font-semibold italic">"Best preschool in Dausa!"</p>
+                 <p className="text-xs text-slate-600 font-semibold italic">"Best school in Dausa!"</p>
               </div>
            </div>
            <div className="order-1 md:order-2 space-y-6">

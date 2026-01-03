@@ -43,9 +43,9 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className={`font-heading font-bold text-sm md:text-base leading-tight ${scrolled ? 'text-slate-800' : 'text-slate-800'}`}>
-                INTERNATIONAL
+                PUBLIC
               </span>
-              <span className="text-[0.6rem] tracking-wider uppercase font-bold text-brand-pink">Pre-School</span>
+              <span className="text-[0.6rem] tracking-wider uppercase font-bold text-brand-pink">School</span>
             </div>
           </Link>
 
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
                <div className="bg-brand-pink text-brand-yellow font-heading font-bold px-2 py-1 rounded-sm transform skew-x-[-10deg]">
                   <span className="transform skew-x-[10deg]">CANWAS</span>
                </div>
-               <span className="font-heading font-bold text-xl">INTERNATIONAL</span>
+               <span className="font-heading font-bold text-xl">PUBLIC SCHOOL</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Nurturing little minds with care, creativity, and joy. Join us to give your child the best start.

@@ -262,7 +262,7 @@ function sendVisitConfirmationEmail(data, submissionId) {
         <div class="content">
           <p>Hello <strong>${data.parentName}</strong>,</p>
           
-          <p>Thank you for showing interest in our preschool! 🌟</p>
+          <p>Thank you for showing interest in our school! 🌟</p>
           
           <p>We have received your request to visit our school${data.program ? ' for <span class="highlight">' + data.program + '</span>' : ''}.</p>
           
@@ -294,7 +294,7 @@ function sendVisitConfirmationEmail(data, submissionId) {
     const plainTextBody = `
 Hello ${data.parentName},
 
-Thank you for showing interest in our preschool.
+Thank you for showing interest in our school.
 
 We have received your request to visit our school${data.program ? ' for ' + data.program : ''}.
 
