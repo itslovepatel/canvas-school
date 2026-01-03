@@ -18,7 +18,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-pink-100 text-pink-700 border-pink-200',
     icon: <Baby className="w-8 h-8 text-pink-500" />,
     features: ['Play-Based Learning', 'Motor Skills', 'Social Interaction', 'Basic Hygiene'],
-    timings: '9:30 AM – 12:30 PM'
+    timings: '8:30 AM – 2:00 PM'
   },
   {
     id: 'nursery',
@@ -28,7 +28,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-sky-100 text-sky-700 border-sky-200',
     icon: <Blocks className="w-8 h-8 text-sky-500" />,
     features: ['Alphabet Recognition', 'Number Concepts', 'Art & Craft', 'Rhymes & Stories'],
-    timings: '9:00 AM – 1:00 PM'
+    timings: '8:30 AM – 2:00 PM'
   },
   {
     id: 'lkg',
@@ -38,7 +38,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-green-100 text-green-700 border-green-200',
     icon: <Smile className="w-8 h-8 text-green-500" />,
     features: ['Reading Readiness', 'Writing Practice', 'Basic Maths', 'Environmental Awareness'],
-    timings: '8:30 AM – 1:30 PM'
+    timings: '8:30 AM – 2:00 PM'
   },
   {
     id: 'ukg',
@@ -48,7 +48,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-yellow-100 text-yellow-700 border-yellow-200',
     icon: <Star className="w-8 h-8 text-yellow-500" />,
     features: ['Sentence Formation', 'Addition & Subtraction', 'General Knowledge', 'Creative Expression'],
-    timings: '8:30 AM – 1:30 PM'
+    timings: '8:30 AM – 2:00 PM'
   },
   {
     id: 'primary',
@@ -58,7 +58,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-blue-100 text-blue-700 border-blue-200',
     icon: <BookOpen className="w-8 h-8 text-blue-500" />,
     features: ['English & Hindi', 'Mathematics', 'Science & EVS', 'Computer Education'],
-    timings: '8:00 AM – 2:00 PM'
+    timings: '8:30 AM – 2:00 PM'
   },
   {
     id: 'middle',
@@ -68,7 +68,7 @@ export const PROGRAMS: Program[] = [
     color: 'bg-purple-100 text-purple-700 border-purple-200',
     icon: <GraduationCap className="w-8 h-8 text-purple-500" />,
     features: ['Science & Maths', 'Social Studies', 'Sanskrit/Hindi', 'Computer Science'],
-    timings: '8:00 AM – 2:30 PM'
+    timings: '8:30 AM – 2:00 PM'
   }
 ];
 

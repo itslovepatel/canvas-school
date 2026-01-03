@@ -166,12 +166,8 @@ const Footer: React.FC = () => {
             <h3 className="font-heading font-bold text-lg mb-4 text-brand-blue">School Hours</h3>
             <ul className="space-y-2 text-sm text-slate-300">
               <li className="flex justify-between">
-                <span>Mon - Fri</span>
+                <span>Mon - Sat</span>
                 <span>8:30 AM - 2:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday</span>
-                <span>9:00 AM - 12:00 PM</span>
               </li>
               <li className="flex justify-between text-slate-500">
                 <span>Sunday</span>

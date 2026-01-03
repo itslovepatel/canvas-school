@@ -108,9 +108,8 @@ const Contact: React.FC = () => {
                   <Clock className="w-7 h-7" />
                </div>
                <h3 className="font-bold text-lg mb-2">Visit Hours</h3>
-               <p className="text-slate-600 text-sm">Mon - Fri: 9:00 AM - 1:00 PM</p>
-               <p className="text-slate-600 text-sm mb-4">Sat: 9:30 AM - 12:00 PM</p>
-               <div className="text-xs text-slate-400 font-semibold">Sunday Closed</div>
+               <p className="text-slate-600 text-sm">Mon - Sat: 8:30 AM - 2:00 PM</p>
+               <div className="text-xs text-slate-400 font-semibold mt-2">Sunday Closed</div>
             </Card>
          </div>
 
