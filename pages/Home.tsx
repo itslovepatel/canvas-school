@@ -172,17 +172,17 @@ const Home: React.FC = () => {
       </Section>
 
       {/* Final CTA */}
-      <Section className="bg-brand-blue text-white text-center">
+      <Section className="bg-gradient-to-r from-brand-pink to-pink-600 text-white text-center">
          <div className="max-w-3xl mx-auto space-y-6">
             <h2 className="text-3xl md:text-4xl font-heading font-bold">Ready to start the journey?</h2>
-            <p className="text-lg md:text-xl text-sky-100">
+            <p className="text-lg md:text-xl text-pink-100">
                Admissions are open. Schedule a visit to our Dausa branch today.
             </p>
-            <div className="flex justify-center gap-4 pt-4">
-               <Button to="/contact" variant="primary" className="bg-white text-brand-blue hover:bg-sky-50 shadow-none">
+            <div className="flex flex-wrap justify-center gap-4 pt-4">
+               <Button to="/contact" variant="primary" className="bg-white text-brand-pink hover:bg-pink-50 shadow-lg font-bold">
                   Book a Visit
                </Button>
-               <Button to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white/10 shadow-none">
+               <Button to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white/20 shadow-none font-bold">
                   Contact Us
                </Button>
             </div>
