@@ -1,54 +1,74 @@
 import React from 'react';
 import { Program, Testimonial, Activity, GalleryItem } from './types';
-import { Baby, BookOpen, Music, Palette, Trees, Gamepad2, Blocks, Smile, Star, ShieldCheck, Heart } from 'lucide-react';
+import { Baby, BookOpen, Music, Palette, Trees, Gamepad2, Blocks, Smile, Star, ShieldCheck, Heart, GraduationCap, Users, Calculator, FlaskConical } from 'lucide-react';
 
-export const SCHOOL_NAME = "Canvas International Pre-School";
-export const SCHOOL_PHONE = "+91 94140 12345"; // Placeholder, updated below if specific provided, else generic
+export const SCHOOL_NAME = "Canwas Public School";
+export const SCHOOL_PHONE = "+91 82099 09098";
 export const SCHOOL_EMAIL = "Canvasdausa1377@gmail.com";
 export const SCHOOL_ADDRESS = "New Mandi Road, Behind Durga Mandir, Dausa";
-export const SCHOOL_WEBSITE = "www.canvasinternationalschool.com";
+export const SCHOOL_WEBSITE = "www.canwaspublicschool.com";
 
-// Updated Programs based on PDF naming conventions
+// Programs from Pre-School to Class 8
 export const PROGRAMS: Program[] = [
   {
-    id: 'infant-community',
-    title: 'Infant Community (Playgroup)',
-    age: '1.5 – 2.5 Years',
-    description: 'A gentle introduction focusing on phonological awareness, pre-writing skills, and social interaction.',
+    id: 'playgroup',
+    title: 'Playgroup',
+    age: '2 – 3 Years',
+    description: 'A gentle introduction to school life with play-based learning, social skills, and motor development.',
     color: 'bg-pink-100 text-pink-700 border-pink-200',
     icon: <Baby className="w-8 h-8 text-pink-500" />,
-    features: ['Phonological Awareness', 'Pattern Writing', 'My Body & Cleanliness', 'Mannerisms'],
+    features: ['Play-Based Learning', 'Motor Skills', 'Social Interaction', 'Basic Hygiene'],
     timings: '9:30 AM – 12:30 PM'
   },
   {
-    id: 'inquirers',
-    title: 'Inquirers (Nursery)',
-    age: '2.5 – 3.5 Years',
-    description: 'Building foundations for literacy and curiosity through the "Inquirer" methodology.',
+    id: 'nursery',
+    title: 'Nursery',
+    age: '3 – 4 Years',
+    description: 'Building foundations for literacy and numeracy through interactive activities.',
     color: 'bg-sky-100 text-sky-700 border-sky-200',
     icon: <Blocks className="w-8 h-8 text-sky-500" />,
-    features: ['Writing Patterns', 'Logical Reasoning', 'My Amazing Body', 'Sensory Development'],
+    features: ['Alphabet Recognition', 'Number Concepts', 'Art & Craft', 'Rhymes & Stories'],
     timings: '9:00 AM – 1:00 PM'
   },
   {
-    id: 'collaborators',
-    title: 'Collaborators (K.G)',
-    age: '3.5 – 4.5 Years',
-    description: 'Collaborative learning focusing on CVC words, simple sentences, and sorting concepts.',
+    id: 'lkg',
+    title: 'L.K.G',
+    age: '4 – 5 Years',
+    description: 'Lower Kindergarten with structured learning and creative activities.',
     color: 'bg-green-100 text-green-700 border-green-200',
-    icon: <BookOpen className="w-8 h-8 text-green-500" />,
-    features: ['Reading CVC Words', 'Simple Addition/Subtraction', 'Community Helpers', 'Living vs Non-Living'],
+    icon: <Smile className="w-8 h-8 text-green-500" />,
+    features: ['Reading Readiness', 'Writing Practice', 'Basic Maths', 'Environmental Awareness'],
     timings: '8:30 AM – 1:30 PM'
   },
   {
-    id: 'creators',
-    title: 'Creators (Prep)',
-    age: '4.5 – 6 Years',
-    description: 'Advanced preparation with creative writing, number bonds, and complex concepts.',
+    id: 'ukg',
+    title: 'U.K.G',
+    age: '5 – 6 Years',
+    description: 'Upper Kindergarten preparing children for primary school with confidence.',
     color: 'bg-yellow-100 text-yellow-700 border-yellow-200',
     icon: <Star className="w-8 h-8 text-yellow-500" />,
-    features: ['Creative Writing', 'Number Bonds (0-100)', 'Courtesy Words', 'Food and Nutrition'],
+    features: ['Sentence Formation', 'Addition & Subtraction', 'General Knowledge', 'Creative Expression'],
     timings: '8:30 AM – 1:30 PM'
+  },
+  {
+    id: 'primary',
+    title: 'Primary (Class 1-5)',
+    age: '6 – 11 Years',
+    description: 'Strong academic foundation with focus on core subjects and holistic development.',
+    color: 'bg-blue-100 text-blue-700 border-blue-200',
+    icon: <BookOpen className="w-8 h-8 text-blue-500" />,
+    features: ['English & Hindi', 'Mathematics', 'Science & EVS', 'Computer Education'],
+    timings: '8:00 AM – 2:00 PM'
+  },
+  {
+    id: 'middle',
+    title: 'Middle School (Class 6-8)',
+    age: '11 – 14 Years',
+    description: 'Advanced curriculum preparing students for higher education with specialized subjects.',
+    color: 'bg-purple-100 text-purple-700 border-purple-200',
+    icon: <GraduationCap className="w-8 h-8 text-purple-500" />,
+    features: ['Science & Maths', 'Social Studies', 'Sanskrit/Hindi', 'Computer Science'],
+    timings: '8:00 AM – 2:30 PM'
   }
 ];
 
@@ -57,22 +77,22 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 1,
     parentName: "Mrs. Sharma",
     childName: "Vihaan",
-    childAge: "Infant Community",
-    content: "The 'Learning Rooms' concept instead of classrooms is wonderful. Vihaan loves the scribble boards!",
+    childAge: "Class 3",
+    content: "Canwas Public School has excellent teachers and a nurturing environment. My son loves going to school!",
   },
   {
     id: 2,
     parentName: "Mr. Rajesh Gupta",
     childName: "Aanya",
-    childAge: "Inquirers",
-    content: "Canvas Dausa has excellent hygiene standards. The 'Bagless' approach reduces burden and makes learning fun.",
+    childAge: "Class 6",
+    content: "The school maintains great hygiene standards and focuses on both academics and extracurricular activities.",
   },
   {
     id: 3,
     parentName: "Mrs. Meena Verma",
     childName: "Kabir",
-    childAge: "Collaborators",
-    content: "The focus on PSED (Personal, Social, Emotional Development) has truly made my child more confident.",
+    childAge: "U.K.G",
+    content: "The personal attention given to each child has made my son more confident and eager to learn.",
   }
 ];
 

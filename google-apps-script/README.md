@@ -62,11 +62,11 @@ Edit these values in `Code.gs` to match your school:
 
 ```javascript
 const SCHOOL_CONFIG = {
-  name: "Canvas International Pre-School",
-  phone: "+91 94140 12345",
+  name: "Canwas Public School",
+  phone: "+91 82099 09098",
   email: "Canvasdausa1377@gmail.com",
   address: "New Mandi Road, Behind Durga Mandir, Dausa",
-  website: "www.canvasinternationalschool.com"
+  website: "www.canwaspublicschool.com"
 };
 ```
 

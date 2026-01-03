@@ -1,11 +1,11 @@
-# 🎨 Canvas International Pre-School
+# 🎨 Canwas Public School
 
-A modern, responsive website for Canvas International Pre-School, Dausa - Where Little Minds Begin Their Big Journey.
+A modern, responsive website for Canwas Public School, Dausa - Nurturing Young Minds from Playgroup to Class 8.
 
 ## ✨ Features
 
 - **📱 Fully Responsive** - Works beautifully on mobile, tablet, and desktop
-- **📚 Programs Showcase** - Detailed information about all age-appropriate programs
+- **📚 Programs Showcase** - Classes from Playgroup to Class 8
 - **📝 Online Admissions** - Admission inquiry form with Google Sheets integration
 - **📅 Visit Scheduling** - Parents can book campus tours online
 - **📧 Email Confirmations** - Automatic confirmation emails via Google Apps Script
@@ -78,11 +78,11 @@ This project is configured for deployment on:
 
 ## 🏫 School Information
 
-**Canvas International Pre-School**  
+**Canwas Public School**  
 📍 New Mandi Road, Behind Durga Mandir, Dausa  
-📞 +91 94140 12345  
+📞 +91 82099 09098  
 ✉️ Canvasdausa1377@gmail.com
 
 ## 📝 License
 
-This project is private and created for Canvas International Pre-School.
+This project is private and created for Canwas Public School.
