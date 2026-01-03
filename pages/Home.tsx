@@ -34,7 +34,7 @@ const Home: React.FC = () => {
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto md:mx-0">
                 A quality school in Dausa where we believe in "Learning by Doing" to nurture young, creative minds from Playgroup to Class 8.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4bg-transparent border-2 border-white text-white hover:bg-white/20 shadow-none font-bold">
                 <Button to="/contact" variant="primary" className="text-lg px-8 py-4">
                   Book a School Visit
                 </Button>
