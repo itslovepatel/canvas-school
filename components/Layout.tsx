@@ -214,7 +214,7 @@ export const StickyMobileCTA: React.FC = () => {
     <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.1)] p-4 z-40 flex justify-between items-center gap-4">
       <div className="flex flex-col">
         <span className="text-xs text-slate-500 font-bold">Admissions Open</span>
-        <span className="text-sm font-bold text-slate-800">2024-25 Session</span>
+        <span className="text-sm font-bold text-slate-800">2026-27 Session</span>
       </div>
       <Button to="/contact" variant="primary" className="flex-1 py-2 text-sm shadow-none">
         Book a Visit

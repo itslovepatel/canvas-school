@@ -26,7 +26,7 @@ const Home: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left space-y-6">
               <div className="inline-block bg-white px-4 py-1.5 rounded-full text-sm font-bold text-brand-pink shadow-sm mb-2 border border-brand-pink/20">
-                Admissions Open for 2024-25
+                Admissions Open for 2026-27
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-slate-800 leading-tight">
                 Begin The <span className="text-brand-pink">Journey</span> With <span className="text-brand-yellow drop-shadow-sm text-stroke-pink">CANWAS</span>
