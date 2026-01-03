@@ -7,7 +7,7 @@ This folder contains the Google Apps Script code for handling form submissions a
 ### Step 1: Create Google Sheet
 
 1. Go to [Google Sheets](https://sheets.google.com)
-2. Create a new spreadsheet named: **"Canvas Pre-School Submissions"**
+2. Create a new spreadsheet named: **"Canwas Public School Submissions"**
 3. Keep this sheet open
 
 ### Step 2: Open Apps Script Editor
@@ -16,7 +16,7 @@ This folder contains the Google Apps Script code for handling form submissions a
 2. Delete any default code in the editor
 3. Copy the entire content from `Code.gs` and paste it
 4. Click the save icon (💾) or press `Ctrl+S`
-5. Name the project: **"Canvas Form Handler"**
+5. Name the project: **"Canwas Form Handler"**
 
 ### Step 3: Initialize Sheets
 
@@ -42,7 +42,7 @@ This folder contains the Google Apps Script code for handling form submissions a
 1. Click **Deploy** > **New deployment**
 2. Click the gear icon (⚙️) next to "Select type" > Choose **Web app**
 3. Configure:
-   - **Description**: "Canvas Form API v1.0"
+   - **Description**: "Canwas Form API v1.0"
    - **Execute as**: "Me" (your email)
    - **Who has access**: "Anyone"
 4. Click **Deploy**
@@ -101,7 +101,7 @@ The script automatically creates these sheets:
 - Professional HTML design with plain-text fallback
 
 ### Admission Inquiry Confirmation
-- **Subject**: "Admission Inquiry Received – Canvas International Pre-School"
+- **Subject**: "Admission Inquiry Received – Canwas Public School"
 - Includes program and child details
 - Professional HTML design with plain-text fallback
 

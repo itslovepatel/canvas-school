@@ -29,7 +29,7 @@ const Home: React.FC = () => {
                 Admissions Open for 2024-25
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-slate-800 leading-tight">
-                Begin The <span className="text-brand-pink">Journey</span> With <span className="text-brand-yellow drop-shadow-sm text-stroke-pink">CANVAS</span>
+                Begin The <span className="text-brand-pink">Journey</span> With <span className="text-brand-yellow drop-shadow-sm text-stroke-pink">CANWAS</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto md:mx-0">
                 A concept preschool in Dausa where we believe in "Learning by Doing" to nurture young, creative minds.

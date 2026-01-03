@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center gap-2 group">
              {/* Logo Representation - Mimicking the Pink Splash with Yellow Text */}
             <div className="relative h-12 flex items-center justify-center bg-brand-pink text-brand-yellow font-heading font-extrabold px-3 py-1 rounded-sm transform skew-x-[-10deg] shadow-lg group-hover:scale-105 transition-transform">
-              <span className="text-xl md:text-2xl transform skew-x-[10deg] tracking-wide">CANVAS</span>
+              <span className="text-xl md:text-2xl transform skew-x-[10deg] tracking-wide">CANWAS</span>
             </div>
             <div className="flex flex-col">
               <span className={`font-heading font-bold text-sm md:text-base leading-tight ${scrolled ? 'text-slate-800' : 'text-slate-800'}`}>
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
                <div className="bg-brand-pink text-brand-yellow font-heading font-bold px-2 py-1 rounded-sm transform skew-x-[-10deg]">
-                  <span className="transform skew-x-[10deg]">CANVAS</span>
+                  <span className="transform skew-x-[10deg]">CANWAS</span>
                </div>
                <span className="font-heading font-bold text-xl">INTERNATIONAL</span>
             </div>

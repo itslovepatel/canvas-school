@@ -100,7 +100,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: 'technology',
     title: 'Technology & Apps',
-    description: 'Canvas App and Audio-Visual rooms for modern learning.',
+    description: 'Modern Audio-Visual rooms for interactive learning.',
     icon: <Gamepad2 className="w-6 h-6" />
   },
   {

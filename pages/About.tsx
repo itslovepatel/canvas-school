@@ -7,8 +7,8 @@ const About: React.FC = () => {
     <>
       <Section bgColor="bg-slate-50">
         <SectionHeading 
-          title="About Canvas" 
-          subtitle="Where Little Minds Begin Their Big Journey." 
+          title="About Canwas" 
+          subtitle="Nurturing Young Minds from Playgroup to Class 8." 
         />
         
         {/* Intro */}
@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold font-heading text-slate-800">Our Story</h3>
             <p className="text-slate-600 leading-relaxed">
-              Canvas International Pre-School is an exemplary pre-school that is foremost in offering a powerful foundation to young children. We act like an empty canvas for kids to fill with their wonderful imagination and mold their identity.
+              Canwas Public School is an exemplary school that offers a powerful foundation to young children from Playgroup to Class 8. We act like an empty canvas for kids to fill with their wonderful imagination and mold their identity.
             </p>
             <p className="text-slate-600 leading-relaxed">
               At our Dausa branch, we provide an environment where children can explore and learn in a caring atmosphere. We focus on holistic development, integrating play, social skills, and emotional growth.
@@ -77,7 +77,7 @@ const About: React.FC = () => {
               <div className="text-brand-pink font-bold uppercase tracking-wide text-sm mb-2">Message from Management</div>
               <h3 className="text-2xl font-bold font-heading mb-4">Principal's Desk</h3>
               <p className="text-slate-600 italic mb-4">
-                 "Canvas is a vision transformed to create an education system with a goal to develop a whole new art of teaching and learning encircled within fun and creativity. We strive to shape the future generation by nurturing each child's individuality at our Dausa campus."
+                 "Canwas is a vision transformed to create an education system with a goal to develop a whole new art of teaching and learning encircled within fun and creativity. We strive to shape the future generation by nurturing each child's individuality at our Dausa campus."
               </p>
               <div className="flex gap-2 justify-center md:justify-start">
                  <Award className="w-5 h-5 text-yellow-500" />
